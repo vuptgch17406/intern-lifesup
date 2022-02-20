@@ -1,0 +1,23 @@
+#red,
+#blue {
+  position: absolute;
+}
+
+#red {
+  background-color: red;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  top: 10;
+  left: 0;
+  z-index: 1;
+}
+
+#blue {
+  background-color: blue;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  top: 85px;
+  left: 55px;
+}

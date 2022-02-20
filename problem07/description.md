@@ -1,0 +1,1 @@
+- 2 phần tử cùng được khai báo thì phần từ nào khai báo sau thì ở trên, khai báo trước nằm dưới, hiện tại thì #blue đang đè lên #red, nếu muốn đổi lại vị trí thì ta thêm z-index: 1 vào #red. Đấy là sự ưu tiên hiển thị giữa các phần từ
