@@ -3,13 +3,7 @@
   margin: 0;
   padding: 0;
 }
-p {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 18px;
-}
+
 /* Header */
 .container {
   position: relative;
@@ -92,14 +86,14 @@ p {
   height: 48px;
   left: 40px;
   top: 94px;
-
+  /* identical to box height */
+}
+.text-vnfd {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 35px;
   line-height: 48px;
-  /* identical to box height */
-
   color: #ffffff;
 }
 /* Main content */
@@ -111,10 +105,224 @@ p {
   left: 445px;
   top: 172px;
 }
+.right {
+  position: absolute;
+  width: 1435px;
+  height: 1032px;
+  left: 0px;
+  top: 0px;
+  background: #212529;
+  opacity: 0.6;
+  border-radius: 0px 12px 12px 10px;
+}
 .left {
   position: absolute;
   width: 405px;
   height: 1032px;
   left: 40px;
   top: 172px;
+}
+.flavour {
+  position: absolute;
+  width: 99px;
+  height: 39px;
+  left: 40px;
+  top: 35px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+  color: #ffffff;
+  opacity: 0.4;
+}
+.vdu {
+  position: absolute;
+  width: 81px;
+  height: 48px;
+  left: 677px;
+  top: 30px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height */
+  text-align: center;
+  color: #ffffff;
+}
+.vnf-indicator {
+  position: absolute;
+  width: 180px;
+  height: 39px;
+  left: 1212px;
+  top: 35px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 38px;
+  text-align: right;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.search {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 1270px;
+  top: 89px;
+}
+.detail-1 {
+  position: absolute;
+  left: 92.61%;
+  right: 5.85%;
+  top: 9.5%;
+  bottom: 88.37%;
+}
+.detail-2 {
+  position: absolute;
+  left: 95.68%;
+  right: 2.79%;
+  top: 9.5%;
+  bottom: 88.37%;
+}
+.rectangle-1 {
+  position: absolute;
+  left: 40px;
+  top: 172px;
+  width: 327px;
+  height: 215px;
+  /* Gray/Gray-8 */
+  background: #343a40;
+  opacity: 0.6;
+  border-radius: 6px;
+}
+.rectangle-2 {
+  position: absolute;
+  width: 327px;
+  height: 215px;
+  left: 383px;
+  top: 172px;
+  /* Gray/Gray-8 */
+  background: #343a40;
+  opacity: 0.6;
+  border-radius: 6px;
+}
+.rectangle-3 {
+  position: absolute;
+  width: 327px;
+  height: 215px;
+  left: 726px;
+  top: 172px;
+  background: #343a40;
+  opacity: 0.6;
+  border-radius: 6px;
+}
+.rectangle-4 {
+  position: absolute;
+  width: 327px;
+  height: 215px;
+  left: 1069px;
+  top: 172px;
+  background: #343a40;
+  opacity: 0.6;
+  border-radius: 6px;
+}
+.nfvo1 {
+  position: absolute;
+  width: 53px;
+  height: 24px;
+  left: 17px;
+  top: 26px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  z-index: 1;
+  color: #ffffff;
+}
+.flag-1 {
+  position: absolute;
+  width: 154.64px;
+  height: 40px;
+  left: -1px;
+  top: 18px;
+}
+.computer-chip {
+  position: absolute;
+  left: 5.2%;
+  right: 88.69%;
+  top: 45.12%;
+  bottom: 45.58%;
+  opacity: 0.6;
+}
+.vCPU {
+  position: absolute;
+  left: 35px;
+  right: 59.94%;
+  top: 5%;
+  bottom: 45.12%;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 18px;
+  color: #ffffff;
+  opacity: 0.6;
+}
+.hard-drive {
+  position: absolute;
+  left: 52.91%;
+  right: 40.98%;
+  top: 45.12%;
+  bottom: 45.58%;
+  opacity: 0.6;
+}
+.hdd {
+  position: absolute;
+  left: 35px;
+  right: 17.74%;
+  top: 5%;
+  bottom: 45.12%;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.6;
+}
+.computer-ram {
+  position: absolute;
+  left: 5.5%;
+  right: 88.38%;
+  top: 66.98%;
+  bottom: 23.72%;
+  opacity: 0.6;
+}
+.computer-monitor {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 173px;
+  top: 144px;
+  opacity: 0.6;
+}
+.monitor {
+  position: absolute;
+  left: 35px;
+  right: 17.74%;
+  top: 5%;
+  bottom: 45.12%;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+  opacity: 0.6;
 }
