@@ -111,6 +111,34 @@ let card = [
     info3: "1vCPU x86",
     info4: "04",
   },
+  {
+    name: "nfvo17",
+    info1: "1vCPU x86",
+    info2: "1TB HDD",
+    info3: "1vCPU x86",
+    info4: "04",
+  },
+  {
+    name: "nfvo18",
+    info1: "1vCPU x86",
+    info2: "1TB HDD",
+    info3: "1vCPU x86",
+    info4: "04",
+  },
+  {
+    name: "nfvo19",
+    info1: "1vCPU x86",
+    info2: "1TB HDD",
+    info3: "1vCPU x86",
+    info4: "04",
+  },
+  {
+    name: "nfvo20",
+    info1: "1vCPU x86",
+    info2: "1TB HDD",
+    info3: "1vCPU x86",
+    info4: "04",
+  },
 ];
 renderCard = (cardInfo) => {
   const monitor = document.createElement("p");
