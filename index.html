@@ -13,7 +13,8 @@
       href="./assets/img/grid.svg"
     />
   </head>
-  <body onload="load()">
+  <!-- <body onload="load()"> -->
+  <body>
     <!-- Header -->
     <header>
       <div>
@@ -193,6 +194,7 @@
             <p class="text__items__opa">VNF Indicator</p>
           </div>
           <div class="icons__items__right">
+            <!-- Search -->
             <div class="search-box">
               <button class="btn-search">
                 <svg class="svg-search">
@@ -202,9 +204,13 @@
                   />
                 </svg>
               </button>
-              <input type="text" class="input-search" placeholder="Search..." />
+              <input
+                type="text"
+                id="search"
+                class="input-search"
+                placeholder="Search..."
+              />
             </div>
-
             <svg
               style="margin-right: 10px"
               width="22"
@@ -263,8 +269,72 @@
               />
             </svg>
           </div>
-
+          <!-- Handle card -->
           <div id="root" class="content__right"></div>
+          <!-- Pagination -->
+          <!-- <div class="window">
+            <div class="emojis-container"></div>
+            <div class="btns-container">
+              <button class="btn prev">
+                <svg
+                  version="1.1"
+                  id="Capa_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 451.846 451.847"
+                  style="enable-background: new 0 0 451.846 451.847"
+                  xml:space="preserve"
+                  transform="rotate(-180)"
+                >
+                  <g>
+                    <path
+                      d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+                    L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+                    c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"
+                    />
+                  </g>
+                </svg>
+              </button>
+              <div class="btns-pagination"></div>
+              <button class="btn next">
+                <svg
+                  version="1.1"
+                  id="Capa_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 451.846 451.847"
+                  style="enable-background: new 0 0 451.846 451.847"
+                  xml:space="preserve"
+                >
+                  <g>
+                    <path
+                      d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+                    L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+                    c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"
+                    />
+                  </g>
+                </svg>
+              </button>
+            </div>
+          </div> -->
+          <div class="pagination">
+            <a href="#">&laquo;</a>
+            <a href="#" class="active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">&raquo;</a>
+          </div>
         </div>
       </div>
     </main>
